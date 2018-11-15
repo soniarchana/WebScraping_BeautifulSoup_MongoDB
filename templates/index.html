@@ -41,14 +41,14 @@
             <div class="col-md-12">
               <h3>Current Weather on Mars</h3>
               <p>
-                {{mars_data.mars_weather | safe}}
+                {{mars_data.mars_weather }}
               </p>
             </div>
           </div>
 
           <div class="col-md-12">
             <h3>Mars facts</h3>
-            {{mars_data.mars_facts_html}}
+            {{mars_data.mars_facts_html | safe}}
           </div>
         </div>
     </div>
